@@ -33,7 +33,6 @@ var redCurrant = {
 // END DO NOT CHANGE ZONE
 // ##########################################################
 
-
 // Write your function here, name it `writeBerries`
 var writeBerries = function (berries) {
   document.write('<h1>Berries</h1>');
@@ -51,7 +50,7 @@ var writeBerries = function (berries) {
       document.write('No');
     }
 
-    document.write('</dd>')
+    document.write('</dd>');
 
     document.write('<dt>Energy</dt>');
     document.write(`<dd>${berry.energy} kJ</dd>`);
@@ -62,9 +61,9 @@ var writeBerries = function (berries) {
 
     document.write('</dl>');
 
-  })
+  });
 
-}
+};
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
